@@ -12,14 +12,14 @@ SublimePicker provides a single point of entry to all three pickers. What I mean
 
 Gradle dependency
 -----------------
-allprojects {
+'allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
 	
-implementation 'com.github.pawarlalit29:SublimePicker:1.0.0'
+implementation 'com.github.pawarlalit29:SublimePicker:1.0.0''
 
 Walkthrough
 -----------
