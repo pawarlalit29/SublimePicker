@@ -12,8 +12,14 @@ SublimePicker provides a single point of entry to all three pickers. What I mean
 
 Gradle dependency
 -----------------
-
-`compile 'com.appeaser.sublimepickerlibrary:sublimepickerlibrary:2.1.2'`
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+implementation 'com.github.pawarlalit29:SublimePicker:1.0.0'
 
 Walkthrough
 -----------
@@ -93,7 +99,11 @@ Results of the selection in **sample application** (date range):
 <img src="https://github.com/vikramkakkar/SublimePicker/blob/master/img/sampler_results_date_range_v2.png?raw=true" width="497" height="1000" />
 </p>
 
-**How-to**s will be added in a day or two...
+Credits - 
+We must give credit to Vikram Kakkar (vikram.kakkar.85@gmail.com
+) for developing great library.
+Thanks Vikram.
+
 
 License
 -------
